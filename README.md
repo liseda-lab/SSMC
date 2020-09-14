@@ -18,7 +18,7 @@ SSMC can model object semantic similarity scores into an affinity matrix, and us
 The script itself can be extracted and used as a runnable through CLI. SSMC requires the following python modules: collections, itertools, json, logging, math, matplotlib, numpy, owlready2, pandas, seaborn, sklearn, statistics, sys.
 
 ###  How to setup a run
-SSMC accepts as input a JSON file with a series of mandatory (and optional) user defined configurations. An example has been provided in Conf.json. It requires:
+SSMC accepts as input a JSON file with a series of mandatory (and optional) user defined configurations. An example has been provided in Configuration.json in the Example folder. It requires:
 - __Object_Data__ - The path to a tab separated (tsv) file containing objects ids and their corresponding annotations. If there are multiple object annotation files, paths should be separated by a ";". All annotations must be identified by a valid IRI and must be separated by a ";" sign. If the file contains negative annotations, then each positive and negative anotation IRI must be prefixed by either a "+" and a "-" sign respectively. 
 - __Ontologies__ - The path or paths to valid ontology files containing the terms used for object annotations and (optional but recomended) their term IRI prefixes. Supported ontology formats in owlready2 include RDF/XML and OWL/XML. 
 - __Similarity Settings__ - Contains the ids of the semantic measures to be used (check table below). Measure arguments include a pairwise measure and an IC measure. Unecessary arguments will be safely ignored.
@@ -36,4 +36,5 @@ SSMC accepts as input a JSON file with a series of mandatory (and optional) user
 
 Once the configurations are finished, run through CLI using the JSON as the only argument.
 
-
+### Test Run
+The folder "Example" contains the necessary files for a test run, provided you already have the Gene Ontology (GO) owl file.  
