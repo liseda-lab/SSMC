@@ -38,3 +38,12 @@ Once the configurations are finished, run through CLI using the JSON as the only
 
 ### Test Run
 The folder "Example" contains the necessary files for a test run (includes also the expected results files), provided you already have the Gene Ontology (GO) owl.  
+
+
+
+##Authors
+-__David Carriço__
+-__Cátia Pesquita__
+
+##Acknowledgments
+Insert some scholarships here or whatever
