@@ -1,0 +1,49 @@
+{
+    "Ontologies":{
+		"GO":{
+			"Path":"C:/Users/...../Example/go.owl.rdf",
+			"Prefix":"http://purl.obolibrary.org/obo/"}
+		},
+		 
+	"Similarity Settings":{
+		
+		"ID1":{
+			"Groupwise":"PolBMA",
+			"Pairwise": "Resnik1995",
+			"IC":"Seco2004"
+			},
+		"ID2":{
+			"Groupwise":"PolBMA",
+			"Pairwise": "Resnik1995",
+			"IC":"Resnik1995"
+			},			
+		"ID3":{
+			"Groupwise":"PolGIC",
+			"IC":"Resnik1995"		
+		},
+		"ID4":{
+			"Groupwise":"PolGIC",
+			"IC":"Seco2004"		
+		}
+		
+	},
+	
+	
+	"Object_Data":"C:/Users/...../Example/Annotations.tsv",
+	
+	
+	"Queries":{
+	
+		"Q1":{
+			"Path":"C:/Users/...../Example/query_A.tsv",
+				"SSM_ID":"ID1,ID2,ID3,ID4",
+				"Results":"C:/Users/...../Example/Results_A.csv"
+		},
+		"Q2":{
+			"Path":"C:/Users/...../Example/query_B.tsv",
+				"SSM_ID":"ID1,ID2,ID3,ID4",
+				"Results":"C:/Users/...../Example/Results_B.csv"
+			
+		}
+	}
+}
