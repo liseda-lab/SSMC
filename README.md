@@ -37,4 +37,4 @@ SSMC accepts as input a JSON file with a series of mandatory (and optional) user
 Once the configurations are finished, run through CLI using the JSON as the only argument.
 
 ### Test Run
-The folder "Example" contains the necessary files for a test run, provided you already have the Gene Ontology (GO) owl file.  
+The folder "Example" contains the necessary files for a test run (includes also the expected results files), provided you already have the Gene Ontology (GO) owl file.  
