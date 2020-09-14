@@ -41,9 +41,9 @@ The folder "Example" contains the necessary files for a test run (includes also 
 
 
 
-##Authors
--__David Carriço__
--__Cátia Pesquita__
+## Authors
+- __David Carriço__
+- __Cátia Pesquita__
 
-##Acknowledgments
+## Acknowledgments
 Insert some scholarships here or whatever
