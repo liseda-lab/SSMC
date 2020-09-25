@@ -1,6 +1,6 @@
 # SSMC - Semantic Similarity Measure Clustering
 SSMC is a Python executable script designed to measure semantic similarity between a set of objects annotated by ontology terms. 
-As is, the tool is intended for a very limited applicability using specific IC-based pairwise and groupwise semantic similarity measures. It currently supports the BMA and simGIC groupwise measures, the Resnik pairwise measure, and the Resnik, Sanchéz and Seco information content (IC) measures. Aditionaly, SSMC can cluster objects through their similarity scores using Spectral Clustering. Insert citations here.
+As is, the tool is intended for a very limited applicability using specific IC-based pairwise and groupwise semantic similarity measures. It currently supports the BMA and simGIC groupwise measures, the Resnik pairwise measure, and the Resnik, Sanchéz and Seco information content (IC) measures. Aditionaly, SSMC can cluster objects through their similarity scores using Spectral Clustering. 
 
 ## Functionalities
 
@@ -46,4 +46,4 @@ The folder "Example" contains the necessary files for a test run (includes also 
 - __Cátia Pesquita__
 
 ## Acknowledgments
-Insert some scholarships here or whatever
+This project has been funded by Portuguese FCT through the LASIGE Research Unit (UID/CEC/00408/2019), and also by the SMILAX project
