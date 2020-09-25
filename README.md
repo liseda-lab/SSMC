@@ -46,4 +46,4 @@ The folder "Example" contains the necessary files for a test run (includes also 
 - __Cátia Pesquita__
 
 ## Acknowledgments
-This project has been funded by Portuguese FCT through the LASIGE Research Unit (UID/CEC/00408/2019), and also by the SMILAX project
+This project has been funded by Portuguese FCT through the LASIGE Research Unit (UID/CEC/00408/2019), and by the SMILAX project - Semantic Mining with Linked Data (PTDC/EEI_ESS/4633/2014)
